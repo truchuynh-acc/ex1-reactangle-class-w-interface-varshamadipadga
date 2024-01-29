@@ -3,20 +3,21 @@
 
 Rectangle::Rectangle()
 {
-	length = width = 1;
+	length = 1;
+	width = 1;
 }
 
 bool Rectangle::set( double newLength, double newWidth )
 {
 	if (newLength > 0 && newWidth > 0)
 	{
-    length = newLength;
-    width = newWidth;
-    return true
+		length = newLength;
+		width = newWidth;
+		return true;
    
 	}
 	else
-    return false
+		return false;
 }
 
 double Rectangle::getWidth() const
