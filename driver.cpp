@@ -17,9 +17,9 @@ int main()
 	Rectangle theRectangle;
 	
 	cout << "Intital state of the rectangle" << endl;
-	cout << "    length = " << theRectangle.getLength() << endl;
-  cout << "    width = " << theRectangle.getWidth() << endl;
-	cout << "    area   = " << theRectangle.getArea() << endl << endl;
+	cout << "length = " << theRectangle.getLength() << endl;
+	cout << "width = " << theRectangle.getWidth() << endl;
+	cout << "area   = " << theRectangle.getArea() << endl << endl;
 	
 	
 	
