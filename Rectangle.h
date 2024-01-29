@@ -9,11 +9,11 @@ class Rectangle : public RectangleInterface
 public:
 	Rectangle();
 	bool set( double newLength, double newWidth );
-  double getLength() const;
-  double getWidth() const;
-  double getArea() const;
+  	double getLength() const;
+  	double getWidth() const;
+  	double getArea() const;
 private:
 	double width;
-  double length;
+  	double length;
 };
 #endif
